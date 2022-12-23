@@ -1,0 +1,41 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="error:war exploded">
+    <output-path>$PROJECT_DIR$/target/error-1.0-SNAPSHOT</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>error</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Student_Management_System" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: io.jsonwebtoken:jjwt-api:0.11.1" />
+          <element id="library" level="project" name="Maven: io.jsonwebtoken:jjwt-impl:0.11.1" />
+          <element id="library" level="project" name="Maven: io.jsonwebtoken:jjwt-jackson:0.11.1" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.13.3" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.13.3" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.13.3" />
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:8.0.30" />
+          <element id="library" level="project" name="Maven: com.google.protobuf:protobuf-java:3.19.4" />
+          <element id="library" level="project" name="Maven: com.auth0:java-jwt:4.2.0" />
+          <element id="library" level="project" name="Maven: com.github.lbovolini:ObjectMapper:0.2.3" />
+          <element id="library" level="project" name="Maven: genetic-algorithm:genetic-algorithm:0.1.1" />
+          <element id="library" level="project" name="Maven: org.clojure:clojure:1.10.1" />
+          <element id="library" level="project" name="Maven: org.clojure:spec.alpha:0.2.176" />
+          <element id="library" level="project" name="Maven: org.clojure:core.specs.alpha:0.2.44" />
+          <element id="library" level="project" name="Maven: jakarta.xml.bind:jakarta.xml.bind-api:2.3.3" />
+          <element id="library" level="project" name="Maven: jakarta.activation:jakarta.activation-api:1.2.2" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/error-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="Student_Management_System/web/Web" />
+    </root>
+  </artifact>
+</component>

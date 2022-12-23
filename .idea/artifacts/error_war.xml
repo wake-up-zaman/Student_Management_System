@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="error:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>error</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="error-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="error:war exploded" />
+    </root>
+  </artifact>
+</component>
